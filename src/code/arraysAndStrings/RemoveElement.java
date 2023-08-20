@@ -1,6 +1,6 @@
 package src.code.arraysAndStrings;
 
-public class Solution {
+class RemoveElement {
 
     public int removeElement(int[] nums, int val) {
         int n = nums.length;
@@ -14,14 +14,6 @@ public class Solution {
         }
 
         return lastIndexWithoutVal;
-    }
-
-}
-
-class Test{
-
-    public static void main(String[] args) {
-
     }
 
 }
